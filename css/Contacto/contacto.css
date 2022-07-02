@@ -1,0 +1,150 @@
+/*Contacto*/
+.contacto {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem 11%;
+	background-color: var(--background-contacto);
+}
+
+.contacto__links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 260px;
+}
+
+.contacto__links-item {
+	font-weight: 500;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.formcontacto {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.form__contacto___title {
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.25rem;
+	color: var(--titulos-categorias);
+}
+
+.formcontacto__form {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 260px;
+}
+
+.formcontacto__input__doble {
+	height: 50px;
+	border-radius: 4px;
+	background-color: var(--blanco);
+	border: none;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+    border-bottom: 1px solid var(--color-borde-input-inactivo);
+}
+
+.formcontacto__form___label {
+	padding: 0.5rem 0.75rem 0;
+	border: none;
+}
+
+.formcontacto__input__nombre {
+	padding: 0 0.75rem 0.5rem;
+	border: none;
+	font-size: 1rem;
+	color: var(--titulos-categorias);
+}
+
+.formcontacto__form___label {
+	font-size: 0.75rem;
+	color: var(--fuente-placeholder);
+}
+
+.formcontacto__textarea {
+	height: 110px;
+	border-radius: 4px;
+	background-color: var(--blanco);
+	border: none;
+	resize: none;
+	padding: 8px 12px;
+    border-bottom: 1px solid var(--color-borde-input-inactivo);
+}
+
+.formcontacto__boton {
+	padding: 1rem;
+	font-size: 0.8rem;
+	background-color: var(--azul-100);
+	color: var(--color-blanco);
+	box-shadow: none;
+	width: 40%;
+	font-weight: 400;
+	border: none;
+	color: var(--blanco)
+}
+
+.formcontacto__textarea:focus,
+.formcontacto__input__nombre:focus {
+	border-bottom: 2px solid var(--azul-100);
+	outline: none;
+}
+
+.formcontacto__textarea::placeholder,
+.formcontacto__input__nombre::placeholder {
+	font-family: Raleway;
+	font-size: 0.9rem;
+}
+
+.formcontacto__input__nombre:focus ~ .label__nombre {
+    color: var(--azul-100);
+}
+
+
+/*Tablet*/
+@media (max-width: 992px) {
+    .contacto {
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 320px;
+		align-content: space-between;
+	}
+	.formcontacto__boton {
+		font-size: .7rem;
+		width: 50%;
+	}
+}
+
+/*Celular*/
+@media (max-width: 600px) {
+    .contacto {
+		flex-wrap: nowrap;
+		height: auto;
+		width: 78%;
+		padding: 1rem 11%;
+	}
+	.footer__logo___alura , .footer__logo___geek {
+		height: 75%;
+		align-self: flex-end;
+	}
+	.contacto__iconos {
+		display: flex;
+		justify-content: center;
+	}
+	.contacto__links{
+		margin: 2rem 0;
+	}
+	.contacto__links-item {
+		text-align: center;
+	}
+	.formcontacto {
+		width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+:root {
+    --blanco: #ffffff;
+    --azul-100: #2A7AE4;
+    --fuente-placeholder: #a2a2a2;
+    --background-buscador: #F5F5F5;
+    --titulos-categorias: #464646;
+    --fondo-categorias: #F5F5F5;
+    --color-borde-input-inactivo: #c8c8c8;
+    --background-contacto: #EAF2FD;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}

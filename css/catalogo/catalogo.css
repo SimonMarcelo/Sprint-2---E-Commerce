@@ -1,0 +1,172 @@
+.catalogos {
+    padding-bottom: 3rem;
+    background-color: var(--fondo-categorias);
+}
+
+.catalogo__div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 11% 0;
+}
+
+.catalogo__titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: var(--titulos-categorias);
+}
+
+.ver-todo {
+    display: flex;
+    flex-direction: row;
+    height: 1.5rem;
+    width: 100px;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.catalogo__ver-todo {
+    color: var(--azul-100);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    align-self: center;
+    text-decoration: none;
+}
+
+.flecha__ver-todo {
+    margin: 0 0 0 7%;
+    height: 1rem;
+    align-self: center;
+}
+
+/* Cards */
+
+.catalogo__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 11%;
+    flex-wrap: wrap;
+}
+
+.catalogo__imagen {
+    width: 12vw;
+    height: 12vw;
+}
+
+/* Categoría "Star Wars" */
+
+.sw1 {
+    background: url(../../img/SW1.png) center / cover no-repeat;
+}
+.sw2 {
+    background: url(../../img/SW2.png) center / cover no-repeat;
+}
+.sw3 {
+    background: url(../../img/SW3.png) center / cover no-repeat;
+}
+.sw4 {
+    background: url(../../img/SW4.png) center / cover no-repeat;
+}
+.sw5 {
+    background: url(../../img/SW5.png) center / cover no-repeat;
+}
+.sw6 {
+    background: url(../../img/SW6.png) center / cover no-repeat;
+}
+/* Categoría "Consolas" */
+
+.c1 {
+    background: url(../../img/Consola1.png) center / cover no-repeat;
+}
+.c2 {
+    background: url(../../img/Consola2.png) center / cover no-repeat;
+}
+.c3 {
+    background: url(../../img/Consola3.png) center / cover no-repeat;
+}
+.c4 {
+    background: url(../../img/Consola4.png) center / cover no-repeat;
+}
+.c5 {
+    background: url(../../img/Consola5.png) center / cover no-repeat;
+}
+.c6 {
+    background: url(../../img/Consola6.png) center / cover no-repeat;
+}
+/* Categoría "Diversos" */
+.d1 {
+    background: url(../../img/Diversos1.png) center / cover no-repeat;
+}
+.d2 {
+    background: url(../../img/Diversos2.png) center / cover no-repeat;
+}
+.d3 {
+    background: url(../../img/Diversos3.png) center / cover no-repeat;
+}
+.d4 {
+    background: url(../../img/Diversos4.png) center / cover no-repeat;
+}
+.d5 {
+    background: url(../../img/Diversos5.png) center / cover no-repeat;
+}
+.d6 {
+    background: url(../../img/Diversos6.png) center / cover no-repeat;
+}
+
+.nombre__producto {
+    font-weight: 500;
+    font-size: .74rem;
+    margin: 0.5rem 0;
+    color: var(--titulos-categorias);
+}
+
+.precio__producto {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    color: var(--titulos-categorias);
+}
+
+.link__producto {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--azul-100);
+}
+
+/*Tablet*/
+@media (max-width: 992px) {
+    .catalogo__box:nth-child(5) , .catalogo__box:nth-child(6) {
+        display: none;
+    }
+    .catalogo__imagen {
+        width: 18vw;
+        height: 18vw;
+    }
+    .nombre__producto {
+        font-size: .6rem;
+    }
+}
+
+/*Celular*/
+@media (max-width: 600px) {
+    .catalogos {
+        padding-bottom: 1rem;
+    }
+    .catalogo__div {
+        padding-top: 1rem;
+    }
+    .catalogo__imagen {
+        width: 36vw;
+        height: 32vw;
+    }
+    .catalogo__box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .link__producto {
+        margin-bottom: 1.5rem;
+    }
+}
