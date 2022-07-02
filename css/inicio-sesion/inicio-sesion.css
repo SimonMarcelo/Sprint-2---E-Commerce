@@ -1,0 +1,85 @@
+.inicio__sesion {
+    padding: 4rem 11%;
+    background-color: var(--background-iniciar-sesion);
+    height: 474px;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio__sesion___div {
+    width: 47%;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.inicio__sesion___titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: var(--titulos-categoria);
+}
+
+.inicio__sesion___email , .inicio__sesion___contraseña {
+    border: none;
+	font-size: 1rem;
+	color: var(--titulos-categorias);
+    border-radius: 4px;
+    height: 63px;
+    padding: 0 1rem;
+}
+
+.inicio__sesion___email:focus , .inicio__sesion___contraseña:focus {
+	border-bottom: 2px solid var(--azul-100);
+	outline: none;
+}
+
+.inicio__sesion___email::placeholder,
+.inicio__sesion___contraseña::placeholder {
+	font-family: Raleway;
+	font-size: 1rem;
+}
+
+.inicio__sesion___boton {
+    padding: 1rem;
+    background-color: var(--azul-100);
+    color: var(--blanco);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+	border: none;
+}
+
+
+
+/*Tablet*/
+@media (max-width: 992px) {
+    .inicio__sesion {
+        height: 295px;
+    }
+    .inicio__sesion___titulo {
+        font-size: 1rem;
+    }
+    .inicio__sesion___boton {
+        width: 33%;
+        font-size: 0.9rem;
+        align-self: center;
+    }
+    .inicio__sesion___email , .inicio__sesion___contraseña , .inicio__sesion___email::placeholder,
+    .inicio__sesion___contraseña::placeholder {
+        font-size: .875rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .inicio__sesion {
+        height: 362px;
+        padding: 6rem 10%;
+    }
+    .inicio__sesion___div {
+        width: 90%;
+    }
+}
