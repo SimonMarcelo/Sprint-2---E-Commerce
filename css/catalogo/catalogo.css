@@ -14,6 +14,7 @@
     font-size: 2rem;
     margin: 1rem 0;
     color: var(--titulos-categorias);
+    align-self: center;
 }
 
 .ver-todo {
@@ -52,6 +53,29 @@
 .catalogo__imagen {
     width: 12vw;
     height: 12vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.catalogo__separador {
+    height: 4rem;
+    width: 100%;
+}
+
+.unidades__producto {
+    font-size: 0.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
+    display: none;
+}
+
+.catalogo__item-editar , .catalogo__item-eliminar{
+    width: 18px;
+    height: 18px;
+    margin: 11px 11px 0 11px
 }
 
 /* Categoría "Star Wars" */
@@ -135,17 +159,36 @@
     color: var(--azul-100);
 }
 
+.catalogo__agregar-producto {
+    background-color: var(--azul-100);
+    color: var(--blanco);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
 /*Tablet*/
 @media (max-width: 992px) {
-    .catalogo__box:nth-child(5) , .catalogo__box:nth-child(6) {
+    .catalogo__box:nth-child(5) , .catalogo__box:nth-child(6){
         display: none;
     }
     .catalogo__imagen {
         width: 18vw;
         height: 18vw;
+        margin-top: 1rem;
     }
     .nombre__producto {
         font-size: .6rem;
+    }
+    .catalogo__separador {
+        display: none;
+    }
+    .catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
+        display: inherit;
+    }
+    .catalogo__titulo {
+        font-size: 1.4rem;
     }
 }
 
@@ -156,6 +199,12 @@
     }
     .catalogo__div {
         padding-top: 1rem;
+        flex-wrap: wrap;
+    }
+    .catalogo__agregar-producto {
+        margin: 0;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
     }
     .catalogo__imagen {
         width: 36vw;
@@ -166,7 +215,17 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .catalogo__titulo {
+        font-size: 1.4rem;
+    }
     .link__producto {
         margin-bottom: 1.5rem;
+    }
+    .catalogo__separador {
+        height: 1rem;
+        width: 100%;
+    }
+    .catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
+        display: none;
     }
 }
