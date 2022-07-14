@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Marcelo Simon | E-Commerce</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="css/reset.css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/header/header.css" rel="stylesheet" />
+		<link href="css/Contacto/contacto.css" rel="stylesheet" />
+		<link href="css/producto/producto.css" rel="stylesheet" />
+		<link href="css/catalogo/catalogo.css" rel="stylesheet" />
+		<link href="css/Footer/footer.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__left">
+				<div class="header__logo">
+					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono" />
+					<img src="img/Alura.png" alt="Texto Alura" class="header__logo___alura" />
+					<img src="img/Geek.png" alt="Texto Geek" class="header__logo___geek" />
+				</div>
+				<div class="header__buscador">
+					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
+					<img src="img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+				</div>
+			</div>
+			<img src="img/Vector_lupita-oscura.png" alt="" class="lupita__celular" />
+		</header>
+		<main>
+			<section class="producto">
+                <div class="producto__imagen"></div>
+                <div class="producto__descripcion">
+                    <span class="producto__descripcion___nombre">Producto XYZ</span>
+                    <p class="producto__descripcion___precio">$ 60.00</p>
+                    <p class="producto__descripcion___detalle">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+                </div>
+            </section>
+            <section class="productos-similares">
+				<div class="catalogo">
+					<div class="catalogo__div">
+						<span class="catalogo__titulo">Productos similares</span>
+					</div>
+					<div class="catalogo__cards">
+						<div class="catalogo__box">
+							<div class="catalogo__imagen c1"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+						<div class="catalogo__box">
+							<div class="catalogo__imagen sw2"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+						<div class="catalogo__box">
+							<div class="catalogo__imagen sw3"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+						<div class="catalogo__box">
+							<div class="catalogo__imagen sw4"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+						<div class="catalogo__box">
+							<div class="catalogo__imagen sw5"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+						<div class="catalogo__box">
+							<div class="catalogo__imagen sw6"></div>
+							<p class="nombre__producto">Producto XYZ</p>
+							<p class="precio__producto">$60,00</p>
+							<a href="" class="link__producto">Ver producto</a>
+						</div>
+					</div>
+				</div>
+            </section>
+			<section class="contacto">
+				<div class="contacto__iconos">
+					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
+					<img src="img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
+					<img src="img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
+				</div>
+				<div class="contacto__links">
+					<a href="" class="contacto__links-item">Quienes somos</a>
+					<a href="" class="contacto__links-item">Política de privacidad</a>
+					<a href="" class="contacto__links-item">Programa de fidelidad</a>
+					<a href="" class="contacto__links-item">Nuestras Tiendas</a>
+					<a href="" class="contacto__links-item">Quiero ser franquiciado</a>
+					<a href="" class="contacto__links-item">Anuncie aquí</a>
+				</div>
+				<div class="formcontacto" id="contacto">
+					<form
+						class="formcontacto__form"
+						name="form"
+						action="https://formsubmit.co/marcelo.simon@gmail.com"
+						method="post"
+					>
+						<span class="form__contacto___title">Hable con nosotros</span>
+						<div class="formcontacto__input__doble nombre">
+							<input
+								class="formcontacto__input__nombre"
+								type="text"
+								name="name"
+								required
+								placeholder="Nombre"
+							/>
+							<label for="Nombre" class="formcontacto__form___label label__nombre">Nombre</label>
+						</div>
+						<textarea
+							class="formcontacto__textarea"
+							rows="5"
+							cols="40"
+							id="mensaje"
+							name="mensaje"
+							placeholder="Escribe tu mensaje"
+						></textarea>
+						<button type="submit" class="formcontacto__boton">Enviar mensaje</button>
+					</form>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="footer__rodapie">
+					<img src="img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
+					<p>2022</p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

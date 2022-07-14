@@ -1,0 +1,91 @@
+.producto {
+    padding: 4rem 11% 0;
+    display: flex;
+    background-color: var(--background-iniciar-sesion);
+}
+
+.producto__imagen {
+    background: url(../../img/SW1-grande.png) center / cover no-repeat;
+    width: 50%;
+    height: 403px;
+}
+
+.producto__descripcion {
+    width: 50%;
+    background-color: transparent;
+    padding-left: 1rem;
+    margin: auto 0;
+
+}
+
+.producto__descripcion___nombre {
+    font-size: 3.25rem;
+    font-family: Raleway;
+    font-weight: 500;
+    color: var(--titulos-categorias);
+}
+
+.producto__descripcion___precio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: var(--titulos-categorias);
+}
+
+.producto__descripcion___detalle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--titulos-categorias);
+}
+
+
+/*Tablet*/
+@media (max-width: 992px) {
+    .producto {
+        padding: 2rem 11% 0;
+    }
+    .producto__imagen {
+        width: 30%;
+        height: auto;
+    }
+    .producto__descripcion{
+        width: 70%;
+    }
+    .producto__descripcion___nombre {
+        font-size: 1.5rem;
+    }
+    .producto__descripcion___precio {
+        font-size: 1rem;
+    }
+    .producto__descripcion___detalle {
+        font-size: 0.9rem;
+    }
+}
+
+/*Celular*/
+@media (max-width: 600px) {
+    .producto {
+        flex-direction: column;
+        padding: 0 11%;
+    }
+    .producto__imagen {
+        width: 100%;
+        height: 192px;
+        margin-bottom: .5rem;
+    }
+    .producto__descripcion {
+        padding-left: 0;
+        width: 100%;
+    }
+    .producto__descripcion___nombre {
+        font-size: 1.5rem;
+    }
+    .producto__descripcion___precio {
+        font-size: 1rem;
+    }
+    .producto__descripcion___detalle {
+        font-size: 0.9rem;
+    }
+}

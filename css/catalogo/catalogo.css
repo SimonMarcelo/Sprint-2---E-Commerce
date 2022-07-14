@@ -3,6 +3,11 @@
     background-color: var(--fondo-categorias);
 }
 
+.productos-similares {
+    padding-bottom: 3rem;
+    background-color: var(--background-iniciar-sesion);
+}
+
 .catalogo__div {
     display: flex;
     justify-content: space-between;
@@ -195,7 +200,7 @@
 
 /*Celular*/
 @media (max-width: 600px) {
-    .catalogos {
+    .catalogos , .productos-similares {
         padding-bottom: 1rem;
     }
     .catalogo__div {
