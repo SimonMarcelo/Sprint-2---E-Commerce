@@ -184,8 +184,9 @@
     .catalogo__separador {
         display: none;
     }
-    .catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
-        display: inherit;
+    .catalogo__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
     .catalogo__titulo {
         font-size: 1.4rem;
@@ -227,5 +228,9 @@
     }
     .catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
         display: none;
+    }
+    .catalogo__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

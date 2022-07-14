@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Marcelo Simon | E-Commerce</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="css/reset.css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/header/header.css" rel="stylesheet" />
+		<link href="css/agregar-producto/agregar-producto.css" rel="stylesheet" />
+		<link href="css/Contacto/contacto.css" rel="stylesheet" />
+		<link href="css/Footer/footer.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__left">
+				<div class="header__logo">
+					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono__agregar-producto" />
+					<img src="img/Alura.png" alt="Texto Alura" class="header__logo___alura__agregar-producto" />
+					<img src="img/Geek.png" alt="Texto Geek" class="header__logo___geek__agregar-producto" />
+				</div>
+				<div class="header__buscador">
+					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
+					<img src="img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+				</div>
+			</div>
+            <button class="admin__boton">Menú Administrador</button>
+			<img src="img/Vector_lupita-oscura.png" alt="" class="lupita__celular" />
+		</header>
+		<main>
+			<section class="agregar-producto">
+				<div class="agregar-producto__div">
+					<span class="agregar-producto__titulo">Agregar nuevo producto</span>
+					<div class="agregar-producto__input__doble url">
+						<input
+							class="agregar-producto__input__url"
+							type="text"
+							name="url"
+							required
+							placeholder="URL"
+						/>
+						<label for="url" class="agregar-producto__form___label label__url">URL de imagen</label>
+					</div>
+					<div class="agregar-producto__input__doble categoria">
+						<input
+							class="agregar-producto__input__categoria"
+							type="text"
+							name="url"
+							required
+							placeholder="Categoría"
+						/>
+						<label for="url" class="agregar-producto__form___label label__categoria"
+							>Categoría</label
+						>
+					</div>
+					<div class="agregar-producto__input__doble nombre-producto">
+						<input
+							class="agregar-producto__input__nombre-producto"
+							type="text"
+							name="url"
+							required
+							placeholder="Nombre del producto"
+						/>
+						<label for="url" class="agregar-producto__form___label label__nombre-producto"
+							>Nombre del producto</label
+						>
+					</div>
+					<div class="agregar-producto__input__doble precio-producto">
+						<input
+							class="agregar-producto__input__precio-producto"
+							type="text"
+							name="url"
+							required
+							placeholder="Precio del producto"
+						/>
+						<label for="url" class="agregar-producto__form___label label__precio-producto"
+							>Precio del producto</label
+						>
+					</div>
+
+					<textarea
+						class="agregar-producto__textarea"
+						rows="5"
+						cols="40"
+						id="mensaje"
+						name="mensaje"
+						placeholder="Descripción del producto"
+					></textarea>
+                    <button type="submit" class="agregar-producto__boton">Agregar producto</button>
+				</div>
+			</section>
+			<section class="contacto">
+				<div class="contacto__iconos">
+					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
+					<img src="img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
+					<img src="img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
+				</div>
+				<div class="contacto__links">
+					<a href="" class="contacto__links-item">Quienes somos</a>
+					<a href="" class="contacto__links-item">Política de privacidad</a>
+					<a href="" class="contacto__links-item">Programa de fidelidad</a>
+					<a href="" class="contacto__links-item">Nuestras Tiendas</a>
+					<a href="" class="contacto__links-item">Quiero ser franquiciado</a>
+					<a href="" class="contacto__links-item">Anuncie aquí</a>
+				</div>
+				<div class="formcontacto" id="contacto">
+					<form
+						class="formcontacto__form"
+						name="form"
+						action="https://formsubmit.co/marcelo.simon@gmail.com"
+						method="post"
+					>
+						<span class="form__contacto___title">Hable con nosotros</span>
+						<div class="formcontacto__input__doble nombre">
+							<input
+								class="formcontacto__input__nombre"
+								type="text"
+								name="name"
+								required
+								placeholder="Nombre"
+							/>
+							<label for="Nombre" class="formcontacto__form___label label__nombre">Nombre</label>
+						</div>
+						<textarea
+							class="formcontacto__textarea"
+							rows="5"
+							cols="40"
+							id="mensaje"
+							name="mensaje"
+							placeholder="Escribe tu mensaje"
+						></textarea>
+						<button type="submit" class="formcontacto__boton">Enviar mensaje</button>
+					</form>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="footer__rodapie">
+					<img src="img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
+					<p>2022</p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

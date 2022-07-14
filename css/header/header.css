@@ -67,7 +67,7 @@
     padding: 1%;
 }
 
-.header__boton {
+.header__boton, .admin__boton {
     font-size: 1rem;
     padding: 1rem;
     border: 1px solid var(--azul-100);
@@ -77,25 +77,43 @@
     margin: auto 0;
     background-color:transparent;
     line-height: 1rem;
+}
+.header__boton {
     width: 18%;
+}
+
+.admin__boton {
+    width: 27%;
 }
 
 .lupita__celular {
     display: none;
 }
 
+.header__logo___icono__agregar-producto {
+    height: 1.8rem;
+}
+.header__logo___alura__agregar-producto {
+    height: 18.5px;
+    align-self: center;
+}
+.header__logo___geek__agregar-producto {
+    height: 18.5px;
+    align-self: center;
+}
 
 /*Tablet*/
 @media (max-width: 992px) {
-    .header__logo___icono {
-        height: 1.6rem;
-    }
-    .header__logo___alura {
-        height: 16.5px;
+    .header__logo___icono__agregar-producto {
+        height: 1rem;
         align-self: center;
     }
-    .header__logo___geek {
-        height: 16.5px;
+    .header__logo___alura__agregar-producto {
+        height: 10.5px;
+        align-self: center;
+    }
+    .header__logo___geek__agregar-producto {
+        height: 10.5px;
         align-self: center;
     }
     .header__boton {
@@ -103,6 +121,10 @@
         padding: .7rem;
         height: 2.1rem;
         line-height: .7rem;
+    }
+    .admin__boton {
+        width: 39%;
+        font-size: 0.7rem;
     }
 }
 
@@ -121,15 +143,25 @@
         height: 1.2rem;
         align-self: center;
     }
-    .header__logo___icono {
-        height: 1.4rem;
-    }.header__logo___alura {
-        height: 12.5px;
+    .header__logo___icono__agregar-producto {
+        height: 1rem;
+        align-self: center;
     }
-    .header__logo___geek {
-        height: 12.5px;
+    .header__logo___alura__agregar-producto {
+        height: 10.5px;
+        align-self: center;
+    }
+    .header__logo___geek__agregar-producto {
+        height: 10.5px;
+        align-self: center;
     }
     .header__boton {
         width: 25%;
+    }
+    .admin__boton {
+        width: 39%;
+        font-size: 0.7rem;
+        min-width: 115px;
+        padding: 0.9rem 0.25rem;
     }
 }
