@@ -1,7 +1,7 @@
 import { productoServices } from "../services/productos-servicios.js";
 
 const nuevoProducto = (name, price, imageUrl) => {
-    
+
     const card = document.createElement('div');
     const contenido = `
     <img src="${imageUrl}" class="catalogo__imagen"></img>
@@ -21,14 +21,22 @@ const productosDiversos = document.querySelector("[datos-productos-diversos]");
 const mostrarProducto = async () => {
     try {
         const listaProductos = await productoServices.listaProductos();
+        let starwars = 0;
+        let consolas = 0;
+        let diversos = 0;
         listaProductos.forEach(elemento => {
-            if (elemento.section === "Star Wars") {
-                productosStarwars.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
-            } else if (elemento.section === "Consolas") {
-                productosConsolas.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
-            } else if (elemento.section === "Diversos") {
-                productosDiversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
-            }
+            if ((starwars < 6) && (elemento.section === "Star Wars")) {
+                    productosStarwars.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    starwars++;
+                }
+            if ((consolas < 6) && (elemento.section === "Consolas")) {
+                    productosConsolas.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    consolas++;
+                } 
+            if ((diversos <= 6) && (elemento.section === "Diversos")) {
+                    productosDiversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    diversos++;
+                }
         });
     } catch (err) {
         console.log(err);

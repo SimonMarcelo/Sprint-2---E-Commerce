@@ -78,12 +78,19 @@
     background-color:transparent;
     line-height: 1rem;
 }
+
 .header__boton {
     width: 18%;
 }
 
 .admin__boton {
     width: 27%;
+}
+
+.login {
+    text-decoration: none;
+    color: var(--azul-100);
+    margin: 1rem;
 }
 
 .lupita__celular {
