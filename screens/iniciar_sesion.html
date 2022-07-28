@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Marcelo Simon | E-Commerce</title>
+		<title>Iniciar Sesión | E-Commerce</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="css/reset.css" rel="stylesheet" />
@@ -9,41 +9,41 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link href="css/style.css" rel="stylesheet" />
-		<link href="css/header/header.css" rel="stylesheet" />
-		<link href="css/inicio-sesion/inicio-sesion.css" rel="stylesheet" />
-		<link href="css/Contacto/contacto.css" rel="stylesheet" />
-		<link href="css/Footer/footer.css" rel="stylesheet" />
+		<link href="../css/style.css" rel="stylesheet" />
+		<link href="../css/header/header.css" rel="stylesheet" />
+		<link href="../css/inicio-sesion/inicio-sesion.css" rel="stylesheet" />
+		<link href="../css/Contacto/contacto.css" rel="stylesheet" />
+		<link href="../css/Footer/footer.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__left">
 				<div class="header__logo">
-					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono" />
-					<img src="img/Alura.png" alt="Texto Alura" class="header__logo___alura" />
-					<img src="img/Geek.png" alt="Texto Geek" class="header__logo___geek" />
+					<img src="../img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono" />
+					<img src="../img/Alura.png" alt="Texto Alura" class="header__logo___alura" />
+					<img src="../img/Geek.png" alt="Texto Geek" class="header__logo___geek" />
 				</div>
 				<div class="header__buscador">
 					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
-					<img src="img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
 				</div>
 			</div>
-            <img src="img/Vector_lupita-oscura.png" alt="" class="lupita__celular">
+            <img src="../img/Vector_lupita-oscura.png" alt="" class="lupita__celular">
 		</header>
 		<main>
             <section class="inicio__sesion">
-                <div class="inicio__sesion___div">
+                <form class="inicio__sesion___div" data-login>
                     <span class="inicio__sesion___titulo">Iniciar Sesión</span>
                     <input type="text" placeholder="Escriba su correo electrónico" class="inicio__sesion___email">
                     <input type="text" placeholder="Escriba su contraseña" class="inicio__sesion___contraseña">
-                    <button class="inicio__sesion___boton">Entrar</button>
-                </div>
+                    <button type="submit" class="inicio__sesion___boton">Entrar</button>
+				</form>
             </section>
 			<section class="contacto">
 				<div class="contacto__iconos">
-					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
-					<img src="img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
-					<img src="img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
+					<img src="../img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
+					<img src="../img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
+					<img src="../img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
 				</div>
 				<div class="contacto__links">
 					<a href="" class="contacto__links-item">Quienes somos</a>
@@ -85,10 +85,11 @@
 			</section>
 			<section class="footer">
 				<div class="footer__rodapie">
-					<img src="img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
+					<img src="../img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
 					<p>2022</p>
 				</div>
 			</section>
 		</main>
+		<script type="module" src="../controllers/login.js"></script>
 	</body>
 </html>

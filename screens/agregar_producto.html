@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Marcelo Simon | E-Commerce</title>
+		<title>Agregar Item | E-Commerce</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="css/reset.css" rel="stylesheet" />
@@ -9,23 +9,23 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link href="css/style.css" rel="stylesheet" />
-		<link href="css/header/header.css" rel="stylesheet" />
-		<link href="css/agregar-producto/agregar-producto.css" rel="stylesheet" />
-		<link href="css/Contacto/contacto.css" rel="stylesheet" />
-		<link href="css/Footer/footer.css" rel="stylesheet" />
+		<link href="../css/style.css" rel="stylesheet" />
+		<link href="../css/header/header.css" rel="stylesheet" />
+		<link href="../css/agregar-producto/agregar-producto.css" rel="stylesheet" />
+		<link href="../css/Contacto/contacto.css" rel="stylesheet" />
+		<link href="../css/Footer/footer.css" rel="stylesheet" />
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__left">
 				<div class="header__logo">
-					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono__agregar-producto" />
-					<img src="img/Alura.png" alt="Texto Alura" class="header__logo___alura__agregar-producto" />
-					<img src="img/Geek.png" alt="Texto Geek" class="header__logo___geek__agregar-producto" />
+					<img src="../img/Vector_Logo.png" alt="Logo de AluraGeek" class="header__logo___icono__agregar-producto" />
+					<img src="../img/Alura.png" alt="Texto Alura" class="header__logo___alura__agregar-producto" />
+					<img src="../img/Geek.png" alt="Texto Geek" class="header__logo___geek__agregar-producto" />
 				</div>
 				<div class="header__buscador">
 					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
-					<img src="img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
 				</div>
 			</div>
             <button class="admin__boton">Menú Administrador</button>
@@ -33,7 +33,7 @@
 		</header>
 		<main>
 			<section class="agregar-producto">
-				<div class="agregar-producto__div">
+				<form class="agregar-producto__div" data-form>
 					<span class="agregar-producto__titulo">Agregar nuevo producto</span>
 					<div class="agregar-producto__input__doble url">
 						<input
@@ -42,20 +42,17 @@
 							name="url"
 							required
 							placeholder="URL"
+							data-url
 						/>
 						<label for="url" class="agregar-producto__form___label label__url">URL de imagen</label>
 					</div>
 					<div class="agregar-producto__input__doble categoria">
-						<input
-							class="agregar-producto__input__categoria"
-							type="text"
-							name="url"
-							required
-							placeholder="Categoría"
-						/>
-						<label for="url" class="agregar-producto__form___label label__categoria"
-							>Categoría</label
-						>
+						<select class="agregar-producto__input__categoria" name="categoria" required data-categoria>
+							<option value="Star Wars">Star Wars</option>
+							<option value="Consolas">Consolas</option>
+							<option value="Diversos">Diversos</option>
+						</select>
+						<label for="categoria" class="agregar-producto__form___label label__categoria">Categoría</label>
 					</div>
 					<div class="agregar-producto__input__doble nombre-producto">
 						<input
@@ -64,6 +61,7 @@
 							name="url"
 							required
 							placeholder="Nombre del producto"
+							data-nombre
 						/>
 						<label for="url" class="agregar-producto__form___label label__nombre-producto"
 							>Nombre del producto</label
@@ -76,6 +74,7 @@
 							name="url"
 							required
 							placeholder="Precio del producto"
+							data-precio
 						/>
 						<label for="url" class="agregar-producto__form___label label__precio-producto"
 							>Precio del producto</label
@@ -89,15 +88,16 @@
 						id="descripcion"
 						name="descripcion"
 						placeholder="Descripción del producto"
+						data-descripcion
 					></textarea>
                     <button type="submit" class="agregar-producto__boton">Agregar producto</button>
-				</div>
+				</form>
 			</section>
 			<section class="contacto">
 				<div class="contacto__iconos">
-					<img src="img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
-					<img src="img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
-					<img src="img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
+					<img src="../img/Vector_Logo.png" alt="Logo de AluraGeek" class="footer__logo___icono" />
+					<img src="../img/Alura.png" alt="Texto Alura" class="footer__logo___alura" />
+					<img src="../img/Geek.png" alt="Texto Geek" class="footer__logo___geek" />
 				</div>
 				<div class="contacto__links">
 					<a href="" class="contacto__links-item">Quienes somos</a>
@@ -139,10 +139,12 @@
 			</section>
 			<section class="footer">
 				<div class="footer__rodapie">
-					<img src="img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
+					<img src="../img/LOGO DEVELOPER NEGRO.png" alt="Logo de Marcelo Simon" class="logo__rodapie" />
 					<p>2022</p>
 				</div>
 			</section>
 		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script type="module" src="../controllers/crear-productos-controller.js"></script>
 	</body>
 </html>

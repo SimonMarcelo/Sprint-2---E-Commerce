@@ -1,0 +1,148 @@
+{
+  "producto": [
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVOJF4-IpJChNYJPPInEHnA7jLyKrdJe81SXcWEaQE4xXuzoiS4EmlssWROQcSaGPgeIg532Y2jn1_9LXUGPXEVegqerbjO3Jz2FlwsJ3gCSddKh2zSQry471_JgfHer9sTYixztGOl6NXneXxLT9HlS_WplfM3-rbTRKLaWAsZ4aNZJ8qkzF6i8XAIw/s1600/SW1.png",
+      "price": "$60,00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg9tjFnvsry2lfLjSge8rblzvSBCLZqaH-CRDB3uihizVCc5Ps9Tc7P2L2SL6bC8f9gD5UvGu2D-m2nvaknM2rBIah-tDVbW6AFOzUhLRTtnekqvdx47QRy3Z_kQ68QUnaCYD07ae_KYk7Oy5IJ_czvK-5mj8OzjwZqI1akmTMa1TlAgqzNrNTdeGQxQ/s1600/SW2.png",
+      "price": "$60,00",
+      "id": 2,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcpwHt4MCbA7mnWFCMUuLbFtliL8ESg7RYi41jaazwqSBn2GbYCRoLjekgNwCVH00Jn-dLSN4GM-nSORKsrjXxtJpRuQrPazwcokgj4rHdv8XEjyoJV_fBpPgiJQe_UZxp8zcOu6PaFVjofwQada9XXBGeL6Xdk6daT5I3WxYC6gkuYsijG5o6Mf6xkw/s1600/SW3.png",
+      "price": "$60,00",
+      "id": 3,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOpNyYjG49XT4Ao9eF0yz7ltJabsvNAQ0UugdrEmOZYsBuYTIxp4VlbhcnkHH1B9_UEjNQXxsBGbnO2NdQzIvcCMVEhICM4QgdXZAJ65R8iI2FVjqepwpb5tXtLyjbyQLlJ_DcsLOpZ17oWCNrCjoRlI4D9x8A2jlaFNyQoSgzwsrddBF_S00osYOkYA/s1600/SW4.png",
+      "price": "$60,00",
+      "id": 4,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL2nzMOy1LivHiJ9IKjP7eyTAs1sb_pzxX-dFoS3z_etfEpN37CTq_7EyFGNWJRLgmjU-sXot07R9A3ar6axAhlco7R-7atJ8AbxpNx3GqXBxS9LyUMqTy3HAklHi75PEonuc2jV3oyCwZj4xFHHs0kAxC6vDc3pkWI5mzRD9QZ-151xwn4APKsmKQ6g/s1600/SW5.png",
+      "price": "$60,00",
+      "id": 5,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga0lvit3ICe0qFlb_Ef7VNELT7_s-U2-qcCWPm8QYpIXW_ckLhNT9ACJFBm-9nD-BO3s8lQWg4cjnyMrJS-SJaH-JrsonTTZa2c9lSTyzjs2dIStz3zrErY0ebMa3S5zq-1ZWmyWmx6ZNXFpudE6eIsWcm7NspxTKcFaeb1R11yOJIZDoZL8XwiFfDGQ/s1600/SW6.png",
+      "price": "$60,00",
+      "id": 6,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Control XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKFVQhAIOyUVpoEDZJ_EOS21tkyDwrN6PQhrXSmRlYJnRpafjnTwcgljiwtLly8p4QZbycbCEGZUQRf_6J5h_M4ftCqr1EzpnxFs2gwi3Ih6rXFLmpO6pdQgBRvpI9bmAIbDBppTdHFLk1g4-nCEgRBu2KsphxDg5AIyQ_BpBATlu9aZCxfUvpkYo8cA/s1600/Consola1.png",
+      "price": "$60,00",
+      "id": 7,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIOwDHzACqWezAWfuk19LQ5o8v70Ut7M9GH5GmynYwDJMqc8XH_ac_eubJhp483_9S_C3nrgGmADhfuoEL28DSqqSJ-w0HLS2jZiG4Cob3InsOn_PPquBFwDnzVOtlLxCZqsq54Idv12A2_sqVDBKOtcTs-br-SaoaRXL_TSbzm8AzWXr6We6_ZgL7zA/s1600/Consola2.png",
+      "price": "$60,00",
+      "id": 8,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEr5ZNtBiOPgk_0QBXYhh0G7NUjf5rx5UsudWHkCrNEswxM8gWN8k0_o22c9T04GcjnSgBpJAjEMfF7gBN2bWNy2oC_MZpI3n6EX2jetKT40w0tgwVX_o0PA-QW7LTC7VZFwEEzlncEaW79PLXpjZABZiQ_iwCC2o2SSE33P_TcXHlgOCTzSrM-p3wtQ/s1600/Consola3.png",
+      "price": "$60,00",
+      "id": 9,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixwh86kwcqf3PtlJRscb5md5eYoAdy9qrFfJHrQy7b7wlMNubYGOnuLI6JPJEBBOmSUoKyymP_-Eu2zEngkuqfhzZrR_OwrtTfYOl6zjnAM-a2h7wKKM3-6ol4jcs3bw4W26dSQ27AS7AjPD0IHEzVzIIKt75WUxLCdcO5xXyVC3Jg9oXGf0Zu05YB0w/s1600/Consola4.png",
+      "price": "$60,00",
+      "id": 10,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Consola XYZ",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxfEJddvpkUFB5IfKZ1xT7SyZDjPjUKTtHyxB81iApwr6kvYoiICSg-xhgOvXeiYujH2uhgxUhRd5I5k4cHamij80VFtM38M4vQ-2witQUdwCdpk_1D8V7Ba9FzMmvcjtNF_2_kZcl7eRzQYiRt35zyJVPMmlczzGw3nDfuXaYxcSjpu_nD0lj445scg/s1600/Consola5.png",
+      "price": "$60,00",
+      "id": 11,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Game Boy",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlGQ9VHWa36T-9c8FP6_IquDsRck_r3N8-lCzw3UMFuURNKGX52m6djVRzmETQwuQFF90e1Yjw1BJZ38z6KsLFpbXyrd_YAa0O5PAJuFv3mHdO_1zLESxxs9gh8oiWLGwQbz8HrnI55ejX3qqFpMy-EgXigJJbYiG1mrpZfRBmVUG_IfFGktzgHG_u9g/s1600/Consola6.png",
+      "price": "$60,00",
+      "id": 12,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Remera Atari",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7kxLLGO1wSSs1Nwc8gALJJP0yagJ2JhK1eUo7PgkRerMe8GquMhzwuupUlNTRilKXnxn6e6V1O4iXqR0dUAJPrFU9dhtjUTyksaoW71mOWki0_YLsoKVV-tpfK9tH9DNdj9erBNMAa8gg7gXQOF2_KWmmc4A70NQJjJUHwBt7utwfdmaQTyJtg2yZcw/s1600/Diversos1.png",
+      "price": "$60,00",
+      "id": 13,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Muñeco Sonic",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeX-mYsVAKcYlVKUNye7JCp8mnzbH-yF04juBQvrBeUyhKzdOmPkObfZufB2vIKG6MP_1a8QM0Dq4nZmytDPGIpGj1g133kNDRRc4LVDJuc_u_g_VX0_TjU3jPbw_ONj6noApv0rLESG2IiBXxmTgPTdTZYtAVRSK66hQIZ8NqLOTEr1DO5F2nmTjYrA/s1600/Diversos3.png",
+      "price": "$60,00",
+      "id": 14,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "name": "Black Panther",
+      "imageUrl": "https://toysporter.com/wp-content/uploads/2021/12/71TZALViAuL._AC_SL1445_.jpg",
+      "price": "$200",
+      "id": "e94af4b4-91d5-42de-98c0-a43cd30a43c8",
+      "alt": "Product",
+      "description": "Diversos",
+      "section": "Muñeco de Black Panther"
+    },
+    {
+      "name": "Black Panther",
+      "imageUrl": "https://toysporter.com/wp-content/uploads/2021/12/71TZALViAuL._AC_SL1445_.jpg",
+      "price": "$200",
+      "id": "47543931-0e1d-4a55-8bfc-69a6463d535a",
+      "alt": "Product",
+      "description": "Muñeco de Black Panther",
+      "section": "Diversos"
+    }
+  ]
+}

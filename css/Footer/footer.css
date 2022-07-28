@@ -1,5 +1,9 @@
 /*footeer*/
 
+body{
+    margin:0;
+}
+
 section.footer {
     padding: 2% 0
 

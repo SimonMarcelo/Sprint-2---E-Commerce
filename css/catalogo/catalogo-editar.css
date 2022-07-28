@@ -3,11 +3,6 @@
     background-color: var(--fondo-categorias);
 }
 
-.productos-similares {
-    padding-bottom: 3rem;
-    background-color: var(--background-iniciar-sesion);
-}
-
 .catalogo__div {
     display: flex;
     justify-content: space-between;
@@ -17,79 +12,61 @@
 .catalogo__titulo {
     font-weight: 700;
     font-size: 2rem;
-    margin: 1rem 0 0;
+    margin: 1rem 0;
     color: var(--titulos-categorias);
     align-self: center;
 }
 
-.ver-todo {
-    display: flex;
-    flex-direction: row;
-    height: 1.5rem;
-    width: 100px;
-    justify-content: flex-end;
-    align-self: center;
-}
-
-.catalogo__ver-todo {
-    color: var(--azul-100);
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1rem;
-    align-self: center;
+.catalogo__agregar-producto {
+    background-color: var(--azul-100);
+    color: var(--blanco);
+    padding: 1rem;
+    margin: 1rem 0;
     text-decoration: none;
-}
-
-.flecha__ver-todo {
-    margin: 0 0 0 7%;
-    height: 1rem;
-    align-self: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Cards */
 
 .catalogo__cards {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     margin: 0 11%;
     flex-wrap: wrap;
 }
 
 .catalogo__box___todos {
-    display: inline-block;
-    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .catalogo__imagen {
     width: 12vw;
     height: 12vw;
-    margin-top: 1rem
 }
 
-.catalogo__separador {
-    height: 4rem;
-    width: 100%;
-}
-
-.unidades__producto {
-    font-size: 0.8rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+.iconos {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 12vw;
+    position: relative;
+    top: 8px;
+    right: 12px;
+    width: 48px;
+    justify-content: space-between;
+    height: 0;
 }
 
 .catalogo__item-editar , .catalogo__item-eliminar{
     width: 18px;
     height: 18px;
-    margin-left: 11px;
+    /* margin-left: 11px;
     position: relative ;
     top: -10vw;
-    left: 10vw;
+    left: 10vw; */
 }
-
-/* Categoría "Star Wars" */
-
 
 .nombre__producto {
     font-weight: 500;
@@ -105,21 +82,13 @@
     color: var(--titulos-categorias);
 }
 
-.link__producto {
-    text-decoration: none;
-    font-weight: 700;
+.unidades__producto {
     font-size: 0.8rem;
-    color: var(--azul-100);
-}
-
-.catalogo__agregar-producto {
-    background-color: var(--azul-100);
-    color: var(--blanco);
-    padding: 1rem;
-    margin: 1rem 0;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
-}
+    font-weight: 500;
+    margin-bottom: 1.5rem;;
+}    
+
 
 /*Tablet*/
 @media (max-width: 992px) {
