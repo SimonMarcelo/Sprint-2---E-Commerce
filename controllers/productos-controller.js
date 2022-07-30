@@ -33,7 +33,7 @@ const mostrarProducto = async () => {
                     productosConsolas.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
                     consolas++;
                 } 
-            if ((diversos <= 6) && (elemento.section === "Diversos")) {
+            if ((diversos < 6) && (elemento.section === "Diversos")) {
                     productosDiversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
                     diversos++;
                 }

@@ -87,6 +87,13 @@
     width: 27%;
 }
 
+.boton-admin{
+    text-decoration: none;
+    color: var(--azul-100);
+    margin: .3rem;
+}
+
+
 .login {
     text-decoration: none;
     color: var(--azul-100);

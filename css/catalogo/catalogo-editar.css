@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 3rem 11% 0;
+    margin-right: 1vw
 }
 
 .catalogo__titulo {
@@ -29,10 +30,9 @@
 /* Cards */
 
 .catalogo__cards {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     margin: 0 11%;
-    flex-wrap: wrap;
 }
 
 .catalogo__box___todos {
@@ -53,7 +53,7 @@
     width: 12vw;
     position: relative;
     top: 8px;
-    right: 12px;
+    right: 25px;
     width: 48px;
     justify-content: space-between;
     height: 0;
@@ -62,10 +62,6 @@
 .catalogo__item-editar , .catalogo__item-eliminar{
     width: 18px;
     height: 18px;
-    /* margin-left: 11px;
-    position: relative ;
-    top: -10vw;
-    left: 10vw; */
 }
 
 .nombre__producto {
@@ -92,8 +88,8 @@
 
 /*Tablet*/
 @media (max-width: 992px) {
-    .catalogo__box:nth-child(5) , .catalogo__box:nth-child(6){
-        display: none;
+    .catalogo__div {
+        margin-right:1.5vw;
     }
     .catalogo__imagen {
         width: 18vw;
@@ -103,12 +99,13 @@
     .nombre__producto {
         font-size: .6rem;
     }
-    .catalogo__separador {
-        display: none;
-    }
     .catalogo__cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
+    .iconos {
+        top: 23px;
+        right: 18px;
     }
     .catalogo__titulo {
         font-size: 1.4rem;
@@ -123,11 +120,17 @@
     .catalogo__div {
         padding-top: 1rem;
         flex-wrap: wrap;
+        margin-right: 3vw;
     }
     .catalogo__agregar-producto {
         margin: 0;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
+        line-height: 1.1rem;
+    }
+    .iconos {
+        top: 23px;
+        right: 23px;
     }
     .catalogo__imagen {
         width: 36vw;
@@ -138,13 +141,6 @@
     }
     .link__producto {
         margin-bottom: 1.5rem;
-    }
-    .catalogo__separador {
-        height: 1rem;
-        width: 100%;
-    }
-    .catalogo__box___todos:nth-child(21) , .catalogo__box___todos:nth-child(22) {
-        display: none;
     }
     .catalogo__cards {
         display: grid;

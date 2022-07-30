@@ -1,0 +1,20 @@
+.mensaje {
+    height: 70vh;
+}
+
+.volver {
+    min-width: 100px;
+    
+}
+
+.volver:hover {
+    background-color: var(--primary-color);
+    color: var(--blanco);
+    font-weight: bolder;
+}
+
+.volver-rojo:hover {
+    background-color: var(--rojo-100);
+    color: var(--blanco);
+    font-weight: bolder;
+}

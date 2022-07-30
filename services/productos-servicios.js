@@ -14,10 +14,30 @@ const crearProductos = (name, imageUrl, price, section, description) => {
     })
 }
 
+const eliminarProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "DELETE",
+    });
+}
+
+const detalleProducto = (id) => {
+    return fetch (`http://localhost:3000/producto/${id}`).then(respuesta => respuesta.json())
+};
+
+const actualizarProducto = (name,imageUrl,price, id, alt, description, section) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, imageUrl, price, description , section}),
+    }).then (respuesta => respuesta).catch((err) => console.log(err));
+}
+
 export const productoServices = {
     listaProductos,
     crearProductos,
+    eliminarProducto,
+    actualizarProducto,
+    detalleProducto,
 }
-
-
-
