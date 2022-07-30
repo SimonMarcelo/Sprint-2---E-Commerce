@@ -1,5 +1,6 @@
 .mensaje {
     height: 70vh;
+    background-color: var(--fondo-categorias);
 }
 
 .volver {

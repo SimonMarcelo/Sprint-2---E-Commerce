@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Catálogo | E-Commerce</title>
+		<title>Catálogo Administrador | E-Commerce</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="../css/reset.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
 		/>
 		<link href="../css/style.css" rel="stylesheet" />
 		<link href="../css/header/header.css" rel="stylesheet" />
-		<link href="../css/catalogo/catalogo.css" rel="stylesheet" />
+		<link href="../css/catalogo/catalogo-editar.css" rel="stylesheet" />
 		<link href="../css/Contacto/contacto.css" rel="stylesheet" />
 		<link href="../css/Footer/footer.css" rel="stylesheet" />
 	</head>
@@ -35,6 +35,7 @@
 				<div class="catalogo">
 					<div class="catalogo__div">
 						<span class="catalogo__titulo">Todos los productos</span>
+						<a href="../screens/agregar_producto.html" type="button" class="catalogo__agregar-producto">Agregar producto</a>
 					</div>
 					<div class="catalogo__cards" datos-productos-all>
 					<!--  Aquí se cargarán todos los productos -->
@@ -92,7 +93,7 @@
 				</div>
 			</section>
 		</main>
-		<script type="module" src="../controllers/productos-completo-controller.js"></script>
+		<script type="module" src="../controllers/productos-admin-controller.js"></script>
 	</body>
 </html>
 

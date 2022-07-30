@@ -37,7 +37,7 @@ const mostrarProductoAdmin = async () => {
             productos.appendChild(nuevoProductoAdmin(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
         });
     } catch (err) {
-        console.log(err);
+        window.location.href = "../screens/pantallas de respuesta/error.html";
     }
 }
 

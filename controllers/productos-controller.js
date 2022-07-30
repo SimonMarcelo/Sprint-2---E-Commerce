@@ -1,13 +1,13 @@
 import { productoServices } from "../services/productos-servicios.js";
 
-const nuevoProducto = (name, price, imageUrl) => {
+const nuevoProducto = (name, price, imageUrl, id) => {
 
     const card = document.createElement('div');
     const contenido = `
     <img src="${imageUrl}" class="catalogo__imagen"></img>
     <p class="nombre__producto">${name}</p>
     <p class="precio__producto">${price}</p>
-    <a href="" class="link__producto">Ver producto</a>
+    <a href="../screens/producto.html?id=${id}" class="link__producto" id="${id}">Ver producto</a>
     `
     card.innerHTML = contenido;
     card.classList.add("catalogo__box");
@@ -26,15 +26,15 @@ const mostrarProducto = async () => {
         let diversos = 0;
         listaProductos.forEach(elemento => {
             if ((starwars < 6) && (elemento.section === "Star Wars")) {
-                    productosStarwars.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    productosStarwars.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
                     starwars++;
                 }
             if ((consolas < 6) && (elemento.section === "Consolas")) {
-                    productosConsolas.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    productosConsolas.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
                     consolas++;
                 } 
             if ((diversos < 6) && (elemento.section === "Diversos")) {
-                    productosDiversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl));
+                    productosDiversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id));
                     diversos++;
                 }
         });

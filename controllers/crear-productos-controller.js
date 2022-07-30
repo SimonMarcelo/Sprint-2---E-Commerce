@@ -17,7 +17,7 @@ form.addEventListener("submit", (evento) => {
     .then((respuesta) => { 
             window.location.href = "../screens/pantallas de respuesta/producto_agregado.html";
             console.log(respuesta);
-    }).catch(err => {
-        console.log(err);
+        }).catch(err => {
+        window.location.href = "../screens/pantallas de respuesta/error.html";
     })
 });
