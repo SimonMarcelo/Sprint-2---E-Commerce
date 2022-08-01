@@ -24,8 +24,8 @@
 					<img src="../img/Geek.png" alt="Texto Geek" class="header__logo___geek__agregar-producto" />
 				</a>
 				<div class="header__buscador">
-					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
-					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" data-texto-buscar/>
+					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" data-accion-buscar/>
 				</div>
 			</div>
             <button class="admin__boton">
@@ -148,5 +148,6 @@
 		</main>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script type="module" src="../controllers/crear-productos-controller.js"></script>
+		<script type="module" src="../controllers/buscar-listener-controller.js"></script>
 	</body>
 </html>

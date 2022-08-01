@@ -24,8 +24,8 @@
 						<img src="../img/Geek.png" alt="Texto Geek" class="header__logo___geek" />
 					</a>
 				<div class="header__buscador">
-					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" />
-					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" />
+					<input type="text" class="header__buscador___input" placeholder="¿Qué deseas buscar?" data-texto-buscar/>
+					<img src="../img/Vector_lupita.png" alt="Imagen de una Lupa" class="header__buscador___imagen" data-accion-buscar/>
 				</div>
 			</div>
 			<img src="../img/Vector_lupita-oscura.png" alt="" class="lupita__celular" />
@@ -92,6 +92,7 @@
 				</div>
 			</section>
 		</main>
+		<script type="module" src="../controllers/buscar-listener-controller.js"></script>
 		<script type="module" src="../controllers/productos-completo-controller.js"></script>
 	</body>
 </html>

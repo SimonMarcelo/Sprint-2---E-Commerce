@@ -34,10 +34,15 @@ const actualizarProducto = (name,imageUrl,price, id, alt="Product", description,
     }).then (respuesta => respuesta).catch((err) => console.log(err));
 }
 
+const buscarProductos = (find) => {
+    return fetch(`http://localhost:3000/producto?find=${find}`).then(respuesta => respuesta.json());
+}
+
 export const productoServices = {
     listaProductos,
     crearProductos,
     eliminarProducto,
     actualizarProducto,
     detalleProducto,
+    buscarProductos,
 }
