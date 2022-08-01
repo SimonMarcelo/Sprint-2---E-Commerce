@@ -20,12 +20,16 @@
 }
 
 .banner__boton {
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--blanco); 
     background-color: var(--azul-100); 
     padding: 1rem;
     border: none;
+}
+
+.consolas {
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--blanco);
 }
 
 
@@ -54,7 +58,9 @@
         line-height: 1rem;
     }
     .banner__boton {
-        font-size: .7rem;
         padding: .7rem;
+    }
+    .consolas {
+        font-size: .7rem;
     }
 }

@@ -6,7 +6,6 @@ formulario.addEventListener("submit", (evento) => {
     if (email === "prueba@alura.com" && password === "123456") {
         window.location.href = "../screens/todos_los_productos_admin.html";
     } else {
-        alert("Usuario o contraseña incorrectos");
-        window.location.href = "../screens/iniciar_sesion.html";
+        window.location.href = "../screens/pantallas de respuesta/error-login.html";
     }
 })
