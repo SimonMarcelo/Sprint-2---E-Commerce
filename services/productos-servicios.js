@@ -1,7 +1,7 @@
-const listaProductos = () => fetch("http://localhost:3000/producto").then(respuesta => respuesta.json());
+const listaProductos = () => fetch("https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json").then(respuesta => respuesta.json());
 
 const crearProductos = (name, imageUrl, price, section, description) => {
-    return fetch (`http://localhost:3000/producto`, { 
+    return fetch (`https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json`, { 
         method: "POST",
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({name, imageUrl, price, id: uuid.v4(), alt: "Product", description , section})
@@ -15,17 +15,17 @@ const crearProductos = (name, imageUrl, price, section, description) => {
 }
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json/${id}`, {
         method: "DELETE",
     });
 }
 
 const detalleProducto = (id) => {
-    return fetch (`http://localhost:3000/producto/${id}`).then(respuesta => respuesta.json())
+    return fetch (`https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json/${id}`).then(respuesta => respuesta.json())
 };
 
 const actualizarProducto = (name,imageUrl,price, id, alt="Product", description, section) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -35,7 +35,7 @@ const actualizarProducto = (name,imageUrl,price, id, alt="Product", description,
 }
 
 const buscarProductos = (find) => {
-    return fetch(`http://localhost:3000/producto?find=${find}`).then(respuesta => respuesta.json());
+    return fetch(`https://simonmarcelo.github.io/Sprint-2---E-Commerce/db.json?find=${find}`).then(respuesta => respuesta.json());
 }
 
 export const productoServices = {
